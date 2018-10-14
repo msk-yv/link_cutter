@@ -1,0 +1,10 @@
+sudo a2enmod rewrite
+
+<VirtualHost *:80>
+ ServerName urlcutter.com
+ DocumentRoot /home/y/braind/urlcutter
+ <Directory /home/y/braind/urlcutter>
+	AllowOverride All
+ </Directory>
+</VirtualHost>
+

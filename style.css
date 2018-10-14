@@ -1,0 +1,11 @@
+header, footer {
+    text-align: center;
+    margin: 5%;
+}
+.header__logo-base {
+    width: 100px;
+}
+.container{
+    text-align: center;
+    align-content: center;
+}

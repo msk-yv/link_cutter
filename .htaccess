@@ -1,0 +1,5 @@
+php_flag display_errors 1
+DirectoryIndex index.php
+php_flag register_globals off
+RewriteEngine on
+RewriteRule ^-(.*) /redirect.php?key=$1 [L]
